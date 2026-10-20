@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b18">
+<meta name="description" content="ElevateTech Solution builds premium responsive websites, online stores, landing pages and custom digital experiences.">
+<title>Services | ElevateTech Solution</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="protected-site">
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="ElevateTech Solution home"><img class="brand-logo" src="logo-landscape.png" alt="ElevateTech Solution — Turning Clicks Into Clients"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="templates.html">UI Templates</a><a href="process.html">Our Process</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    <button class="button button-small button-outline" data-open-inquiry>Get a Quote <span>↗</span></button>
+  </nav>
+</header><main><section class="inner-hero section-wrap"><div class="eyebrow"><span class="pulse-dot"></span> WHAT WE DO</div><h1>Digital services for<br><span class="gradient-text">ambitious brands.</span></h1><p>From first impression to final click, get a website experience designed around your business goals.</p><div class="hero-actions"><button class="button button-primary" data-open-inquiry>Discuss Your Project ↗</button><a class="button button-glass" href="templates.html">Browse Templates ↓</a></div></section><section class="section-wrap services-section" id="services">
+      <div class="section-heading"><div><div class="eyebrow">WHAT WE BUILD</div><h2>Everything your brand<br>needs to <span class="gradient-text">stand out.</span></h2></div><p>From the first visual concept to launch day, we make the complex feel simple—and the ordinary feel extraordinary.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon purple">◈</div><span class="service-number">01 / DESIGN</span><h3>Website UI/UX</h3><p>Beautiful, intuitive interfaces designed around your customers and your goals.</p><a href="#templates">Explore designs <span>↗</span></a><div class="card-glow"></div></article>
+        <article class="service-card"><div class="service-icon blue">⌘</div><span class="service-number">02 / BUILD</span><h3>Website Development</h3><p>Fast, responsive websites with clean structure and thoughtful interactions.</p><a href="#templates">Find your style <span>↗</span></a><div class="card-glow"></div></article>
+        <article class="service-card"><div class="service-icon orange">▧</div><span class="service-number">03 / SELL</span><h3>E-commerce Stores</h3><p>Product-focused storefront experiences built to make browsing and buying easy.</p><a href="#templates">View store concepts <span>↗</span></a><div class="card-glow"></div></article>
+        <article class="service-card"><div class="service-icon mint">↗</div><span class="service-number">04 / GROW</span><h3>Landing Pages</h3><p>Focused campaign pages that communicate value and encourage action.</p><a href="#templates">View landing pages <span>↗</span></a><div class="card-glow"></div></article>
+      </div>
+    </section><section class="cta-section"><div class="cta-orb"></div><div class="cta-inner"><div class="eyebrow"><span class="pulse-dot"></span> YOUR IDEA, OUR NEXT PROJECT</div><h2>Ready to make your<br>online presence <span class="gradient-text">matter?</span></h2><p>Tell us what you’re building. We’ll help you find the right design and next steps.</p><button class="button button-primary" data-open-inquiry>Start Your Website Inquiry <span>↗</span></button><small>No pressure. Just a conversation about your project.</small></div></section></main><footer class="site-footer"><div class="footer-main"><a class="brand" href="index.html"><img class="brand-logo footer-logo" src="logo-landscape.png" alt="ElevateTech Solution — Turning Clicks Into Clients"></a><p>Digital experiences designed to move your business forward.</p><a class="button button-outline button-small" href="contact.html">Let’s build together ↗</a></div><div class="footer-bottom"><span>© <span id="year"></span> ElevateTech Solution. All rights reserved.</span><a href="https://elevatetechsolution.store">elevatetechsolution.store</a><a href="mailto:elevatetechsolution.co@gmail.com">elevatetechsolution.co@gmail.com</a></div></footer><div class="modal-backdrop" id="inquiryModal" aria-hidden="true">
+    <section class="inquiry-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close inquiry form">×</button>
+      <div class="modal-kicker"><span class="pulse-dot"></span> LET’S TALK ABOUT YOUR WEBSITE</div>
+      <h2 id="modalTitle">Make your idea<br><span class="gradient-text">a real thing.</span></h2>
+      <p class="modal-intro">Share a few details. We’ll prepare an email draft for your inquiry.</p>
+      <form id="inquiryForm">
+        <div class="form-row"><label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label><label>Phone / WhatsApp<input name="phone" required autocomplete="tel" placeholder="+91 00000 00000"></label></div>
+        <label>Email address<input name="email" required type="email" autocomplete="email" placeholder="you@company.com"></label>
+        <div class="form-row"><label>Website type<select name="type" required><option value="">Choose a type</option><option>Business website</option><option>E-commerce website</option><option>Portfolio website</option><option>Landing page</option><option>Web application</option><option>Other / not sure</option></select></label><label>Selected template<select name="template" id="templateSelect"><option value="Not selected">Choose a template (optional)</option><option>Nova Corporate</option><option>Forma Shop</option><option>Studio Mono</option><option>Orbit Launch</option><option>Ledger Finance</option><option>Sole Fashion</option><option>Frame Portfolio</option><option>Pulse Wellness</option><option>Custom design</option></select></label></div>
+        <label>What do you need?<textarea name="details" rows="4" placeholder="Pages, features, references, timeline, or budget (optional)"></textarea></label>
+        <button class="button button-primary submit-button" type="submit">Prepare Email Inquiry <span>↗</span></button>
+        <p class="form-privacy">Submitting opens your email application with your details pre-filled. Nothing is sent automatically from this website.</p>
+        <div class="form-success" id="formSuccess" role="status" hidden>Opening your email application… If it doesn’t open, email <a href="mailto:elevatetechsolution.co@gmail.com">elevatetechsolution.co@gmail.com</a>.</div>
+      </form>
+    </section>
+  </div>
+  <script src="app.js"></script><script src="protection.js"></script></body></html>
